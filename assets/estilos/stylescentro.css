@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+
+header{
+    background-color: rgb(35, 100, 108);
+    color: #ace3ff;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+aside{
+    background-color: rgb(181, 234, 255);
+    color: #31142b;
+    text-align: center;
+    padding: 5px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+}
+    
+
+footer{
+    background-color: rgb(45, 85, 110);
+    color: #6f7fa3;
+    text-align: center;
+    padding: 15px;
+    display: block;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.fotoscentro{
+    gap: 25px;
+    margin-bottom: 25px;
+    list-style: none;
+
+}
+
+li img {
+    width: 400px;          
+    height: 300px;          
+    object-fit: cover;      
+    border-radius: 50px;    
+    display: block;         
+    padding: 30px;           
+    text-align: center;     
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 10px
+
+}
+
+footer {
+    margin-top: auto !important;
+}
+
+.principal-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 576px) {
+    li img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
+
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 24px; 
+    }
+}
+
+@media (min-width: 1024px) {
+    header h1 {
+        font-size: 28px; 
+    }
+}

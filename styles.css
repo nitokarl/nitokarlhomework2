@@ -1,0 +1,113 @@
+body{
+    background-image: url('assets/imgpai/antofagasta.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+h1{
+    
+    color: #dee8dc;
+    padding: 20px;
+    margin: 0;
+    text-shadow: 3px 3px 1px black;
+
+}
+.bienvenida{
+    background-color: rgb(52, 130, 52);
+    color: #e0fbc0;
+}
+
+.zonas{
+    
+    padding: 50px;  
+    
+}
+
+
+
+.container{
+    width: 85%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+header{
+    background-color: rgb(52, 130, 52);
+    color: #000000;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 0px;
+    font-size: 20px;
+
+}
+
+nav{
+    background-color: #2aa823;
+    color: #000000;
+    text-align: center;
+    padding: 1px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    
+
+}
+
+.listadonav{
+    cursor: pointer;
+}
+
+.principal-content{
+    margin-bottom: 25px;
+}
+
+
+aside{
+    background-color: #c7ef9e;
+    color: rgb(25, 64, 25);
+    min-height: 220px;
+    text-align: center;
+    padding: 18px;
+    font-size: 20px;
+}
+
+section{
+    background-color: #bde99b;
+    color: #000000;
+    min-height: 220px;
+    text-align: center;
+    padding: 18px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+article{
+    background-color: #1b8315;
+    color: #000000;
+    text-align: center;
+    padding: 18px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px;
+}
+
+footer{
+    background-color: #a3df21;
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+    display: block;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+#btnTop {
+position: fixed;
+right: 16px;
+bottom: 16px;
+padding: 10px 14px;
+}
